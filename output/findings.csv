@@ -1,0 +1,6 @@
+detection,severity,source_ip,targeted_users,count,first_seen,last_seen
+brute_force,high,198.51.100.23,root,10,2026-11-08T01:20:00,2026-11-08T01:20:36
+brute_force,high,203.0.113.45,admin,6,2026-11-08T02:14:01,2026-11-08T02:14:21
+password_spray,medium,192.0.2.77,admin;guest;oracle;postgres;root;test;ubuntu,7,,
+success_after_failures,critical,203.0.113.45,admin,6,2026-11-08T02:14:01,2026-11-08T02:14:30
+success_after_failures,critical,192.168.1.35,dave,3,2026-11-08T15:05:00,2026-11-08T15:06:10
