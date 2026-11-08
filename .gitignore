@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated output (sample results live in docs/sample_output/)
+output/*
+!output/.gitkeep
+
+# Never commit real logs or credentials
+*.log
+.env
